@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-category-template-js",
+    "path": "/posts/블로그",
+    "result": {"pageContext":{"currentCategory":"블로그","categories":["All","CleanCode","나의생각","TDD","JUnit","오늘의기록","SpringBoot","SpringMVC","블로그"],"edges":[{"node":{"id":"8828faed-e837-5cad-9391-6015d9ebc78a","excerpt":"나의 개인 블로그의 시작 SI로 취업 후 첫 파견을 나와서 기획이 마무리가 안 된 시점에 투입이 되어 특별히 진행되는 것 없이 시간을 보내다가 개인 블로그를 만들어서 TIL이라도 기록해보자!라는 마음으로 검색하던 중 요즘 gatsby로 정적 블로그를 손쉽게 많이들 만드는 것 같아서 줌코딩님의 테마로 도메인도 사서 드디어 첫 글을 게시해 봅니다! 1. Netlify 로그인 먼저 Gatsby 테마로 Github blog를 만드는 것은 줌코딩님께서 자세히 올려놓으셔서 추가로 게시하지는 않습니다.  Github repository를 연결을 먼저 해줘야 한다. Github에 로그인 되어있는 상태에서 Netlify에 들어가서 연동을 해주면 됩니다.  그리고 인스톨 페이지에서 특별하게 건들지 않고 기본 설정으로 진행을 하였습니다. 2. Blog Repository 연결하기  그 다음에 나는 모든 저장소로 연결을 하여서 내 저장소가 전부 다 나오는데 그 중에서 블로그 저장소를 연결해주면 됩니다.…","fields":{"slug":"/gatsby-first-blog-contents/"},"frontmatter":{"categories":"블로그","title":"zoomkoding님 Gatsby 테마로 GitHub Blog 만들고 Netlify로 자동배포하기!","date":"September 27, 2021"}},"next":null,"previous":{"fields":{"slug":"/gatsby-java-til/"}}}]}},
+    "staticQueryHashes": ["1073350324","1956554647","2938748437"]}

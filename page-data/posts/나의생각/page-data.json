@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-category-template-js",
+    "path": "/posts/나의생각",
+    "result": {"pageContext":{"currentCategory":"나의생각","categories":["All","CleanCode","나의생각","TDD","JUnit","오늘의기록","SpringBoot","SpringMVC","블로그"],"edges":[{"node":{"id":"619a4d29-9afe-5384-9eac-8b55294e76e4","excerpt":"1. 제 2의 인생을 시작하다 나는 비전공자 개발자이다. 전에는 캐주얼과 여성복 개발을 하는 일을 7년 정도 하였고 코로나와 미래에 대한 전망이 보이지 않아 과감하게 전직을 생각하고 직업을 선택하던 과정에서 시작 한 디지털 마케팅 수업에서 짧게 배웠던 파이썬 수업을 시작으로 개발자로의 진로 선택에 기점이 되었다. 이게 2019년도 말에 있었던 일이다. 그리고 새해가 되서 우연하게 스파르타코딩클럽의 맛보기 미니프로젝트를 만들어 보았는데 꽤 재미있었다. 이게 완전 트리거가 되어 빠른시일에 제대로 된 교육을 받아보고자 찾아본 게 부트캠프였다. 그렇게 시작하여 2월부터 현재까지 10개월이 조금 넘었다. 2. 개발자가 되기 위해 부트캠프에 들어가다. 우선 현재 나는 백엔드 개발자가 되기 위해서 Java, Spring 교육을 위주로 듣고 있다. 하지만 처음 개발을 시작 할 때는 프론트엔드를 지망해서 프론트엔드 교육을 듣고 수료를 하였다. 부트캠프에서는 바닐라JS를 가지고 프레임워크 및 라이브…","fields":{"slug":"/2021-memoir/"},"frontmatter":{"categories":"나의생각","title":"나의 새로운 시작 개발자 - 2021 회고록","date":"January 01, 2022"}},"next":{"fields":{"slug":"/TDD-practice-2-2/"}},"previous":{"fields":{"slug":"/CleanCode-1/"}}}]}},
+    "staticQueryHashes": ["1073350324","1956554647","2938748437"]}

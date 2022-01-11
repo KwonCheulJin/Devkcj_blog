@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-category-template-js",
+    "path": "/posts/SpringBoot",
+    "result": {"pageContext":{"currentCategory":"SpringBoot","categories":["All","CleanCode","나의생각","TDD","JUnit","오늘의기록","SpringBoot","SpringMVC","블로그"],"edges":[{"node":{"id":"7c71a68e-56ac-5349-8533-3f49223bfd2a","excerpt":"오랜만에 남기는 오늘의 기록\n2주동안 VCMS 화면 퍼블리싱 작업으로 다른 기록은 남기지 못하고 나중에 타임리프 사용 관련해서 정리 해서 글을 남겨봐야겠다 오늘 남길 것은 퍼블리싱 작업이 끝난 후 내가 작업한 작업물을 다른 사람들과 공유해서 볼 수 있게 EC2에 올리는 작업을 해야 했는데 이 부분에서 문제가 생겼다. 나는 퍼블리싱 작업을 처음 하는 거였는데 내가 개발을 하는 입장이라 타임리프 탬플릿을 이용해서 화면 구성을 하였다. 반복되는 부분이 많다보니 fragment로 작업을 많이 하였고 그러다보니 쌩 html파일만 열면 그냥 볼 수가 없었다. 나의 작업물을 본 이사님은 그냥 html, css으로 작업했으면 서버까지 띄울일은 없었을 텐데라며… 하시면서 잘못했다고 하신건 아니지만 내가 듣기엔 내가 잘 못했다 라는 것처럼 들렸다… 그냥 내 느낌이겠지…\n아무튼 이런 사건으로 인해서 내가 작업한 파일을 EC2에서 WAS로 구동하려면 jar가 아닌 war로 배포를 해서 서버에 띄워야 했…","fields":{"slug":"/spring-boot/"},"frontmatter":{"categories":"오늘의기록 SpringBoot","title":"Spring Boot Gradle war 배포","date":"November 13, 2021"}},"next":{"fields":{"slug":"/gatsby-today-record-6/"}},"previous":{"fields":{"slug":"/TDD-practice-1/"}}}]}},
+    "staticQueryHashes": ["1073350324","1956554647","2938748437"]}
