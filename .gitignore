@@ -22,4 +22,8 @@ node_modules/
 public
 
 # Mac files
+<<<<<<< HEAD
 .DS_Store
+=======
+.DS_Store
+>>>>>>> c715d1843736f0b0ce09a8b9f0cc16a8af0c7650
