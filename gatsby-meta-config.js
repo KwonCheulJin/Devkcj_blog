@@ -18,7 +18,7 @@ module.exports = {
       thumbnail: '', // Path to the image in the 'asset' folder
     },
     social: {
-      github: `https://github.com/devkcj`, // `https://github.com/zoomKoding`,
+      github: `https://github.com/KwonCheulJin`, // `https://github.com/zoomKoding`,
       linkedIn: ``, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
       email: `chkftm12@gamil.com`, // `zoomkoding@gmail.com`,
     },
@@ -44,10 +44,28 @@ module.exports = {
       // ========================================================
       {
         date: '2021.09 ~',
+        activity: '교보문고 VCMS 프로젝트 투입',
+        links: {
+          post: '',
+          github: '',
+          demo: '',
+        },
+      },
+      {
+        date: '2021.09 ~',
         activity: '갯츠비 탬플릿 블로그 오픈!',
         links: {
           post: '',
-          github: 'https://github.com/KwonCheulJin/devkcj-blog',
+          github: 'https://github.com/KwonCheulJin/Devkcj_blog',
+          demo: '',
+        },
+      },
+      {
+        date: '2021.08 ~',
+        activity: 'SI 프리픽스 입사',
+        links: {
+          post: '',
+          github: '',
           demo: '',
         },
       },
