@@ -3,7 +3,7 @@ emoji: 😱
 title: Jqeury validation Plugin를 활용한 사용자 추가 폼 개발
 date: '2022-01-14 21:13:00'
 author: 촬스
-tags: 블로그 Javascript Jquery Jquery-validator
+tags: 블로그 Javascript Jquery Jqeury-validation-Plugin
 categories: 오늘의기록
 ---
 
