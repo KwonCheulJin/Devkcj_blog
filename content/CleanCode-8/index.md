@@ -7,7 +7,7 @@ tags: 블로그 Java CleanCode TIL
 categories: CleanCode
 ---
 
-# Chapter 8 - 단위 테스트
+# Chapter 9 - 단위 테스트
 
 ## 01. 테스트 코드의 중요성
 

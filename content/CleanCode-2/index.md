@@ -11,13 +11,13 @@ categories: CleanCode
 
 ## 01. SOLID 원칙
 
-> S : SRP(Single Responbility Principle) - 단일 책임 원칙 <br>
+> S : SRP(Single Responsibility Principle) - 단일 책임 원칙 <br>
 > O : OCP(Open Close Principle) - 개방-폐쇄 원칙 <br>
 > L : LSP(Liskov's Substitution Principle) - 리스코프 치환 원칙 <br>
 > I : ISP(Interface Segregaion Principle) - 인터페이스 분리 원칙 <br>
 > D : DIP(Dpendency Inversion Principle) - 의존성 역전 원칙
 
-### SRP (Single Responbility Principle) - 단일 책임 원칙
+### SRP (Single Responsibility Principle) - 단일 책임 원칙
 
 #### 한 클래스는 하나의 책임만 가져야 한다.
 
