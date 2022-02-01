@@ -54,7 +54,7 @@ categories: React
 
 - 리플로우와 리페인트를 많이 수행하게 되면 웹 서비스의 성능 이슈가 발생하게 된다. 그래서 이러한 문제를 해결하기 위해 리액트는 화면에 표ㅕ시되는 돔과 동일한 돔을 메모리상에 만들고, 돔 조작이 발생하면 메모리 상에 생성한 가상 돔에서 모든 연산을 한 후 실제 돔을 갱신하여 리플로우와 리페인트의 연산을 최소화한다.
 
-### 단방향 데이터 바인딩
+### 2.단방향 데이터 바인딩
 
 - 앵귤러와 뷰(Vue)는 양방향 데이터 바인딩을 사용한다.
 
@@ -77,6 +77,94 @@ categories: React
 - 사용자의 데이터를 갱신할 때는 양방향 데이터 바인딩과 다르게 Watcher가 아닌 Event를 통해 데이터를 갱신하게 된다.
 - 하나의 Watcher를 사용하기 때문에 양방향 데이터 바인딩에서 발생하는 문제들을 해결할 수 있고, 더 확실하게 데이터를 추적할 수 있다.
 - 또한 리액트는 단방향 데이터 바인딩과 더불어 Flux라는 개념을 도입하여 데이터의 흐름이 한쪽으로만 진행되도록 하고 있다.
+
+### 3. JSX
+
+- 리액트에서는 JSX라는 독특한 문법을 가지고 있다.
+- JSX는 자바스크립트와 HTML을 동시에 사용하며, HTML에 자바스크립트 변수들을 바로 사용할 수 있는 일종의 템플릿 언어(Template language)이다.
+
+```jsx
+const App = () => {
+  const hello = 'Hello world!';
+  return <div>{hello}</div>;
+};
+```
+
+### 4. 선언형 프로그래밍
+
+- 프로그래밍은 크게 명령형 프로그래밍과 선언형 프로그래밍으로 구별할 수 있다.
+- 명령형 프로그래밍은 프로그래밍할 때 "어떻게(How)"에 집중
+- 선언형 프로그래밍은 프로그래밍할 때 "무엇(What)에 집중
+
+```jsx
+// 명령형 프로그래밍
+const double = (arr) => {
+  let results = [];
+  for (let i = 0; i < arr.length; i++) {
+    results.push(arr[i] * 2);
+  }
+  return results;
+};
+
+// 선언형 프로그래밍
+const double = (arr) => {
+  return arr.map((elem) => elem * 2);
+};
+```
+
+`명령형에서 선언형으로 리액트 JSX 예제`
+
+```javascript
+<sctript>
+    var arr = [1, 2, 3, 4, 5];
+    var elem = document.querySelector("#list");
+
+    for(var i = 0; i < arr.length; i++) {
+        var child = document.createElement("li");
+        child.innerHTML = arr[i];
+        elem.appendChild(child);
+    }
+</sctript>
+```
+
+<h3 style="text-align: center;">⬇️</h3>
+
+```jsx
+const arr = [1, 2, 3, 4, 5];
+
+return (
+  <ul>
+    {arr.map((elem) => {
+      <li>{elem}</li>;
+    })}
+  </ul>
+);
+```
+
+- 선언형 프로그래밍은 코드를 예측할 수 있게 하고 디버깅을 쉽게 할 수 있도록 도와주므로 전체적인 코드 퀄리티 상승과 코드의 이해를 도와주는 효과를 얻을 수 있다.
+
+### 5. 컴포넌트 기반
+
+- 리액트로 웹 UI를 개발할 때는 "컴포넌트"라고 불리는 작고 고립된 코드들을 이요하여 구현하게 된다.
+
+```jsx
+const Title = () => {
+  return <h1>Hello world</h1>;
+};
+
+const Button = () => {
+  return <button>This is a Button</button>;
+};
+
+const App = () => {
+  return (
+    <div>
+      <Title />
+      <Button />
+    </div>
+  );
+};
+```
 
 ```toc
 
