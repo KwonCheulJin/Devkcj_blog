@@ -115,7 +115,7 @@ const double = (arr) => {
 `명령형에서 선언형으로 리액트 JSX 예제`
 
 ```javascript
-<sctript>
+<script>
     var arr = [1, 2, 3, 4, 5];
     var elem = document.querySelector("#list");
 
@@ -124,7 +124,7 @@ const double = (arr) => {
         child.innerHTML = arr[i];
         elem.appendChild(child);
     }
-</sctript>
+</script>
 ```
 
 <h3 style="text-align: center;">⬇️</h3>
